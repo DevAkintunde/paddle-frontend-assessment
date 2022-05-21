@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "adobe-clean", sans-serif;
+    }
+
+    body {
+        @apply text-color-def bg-color-pri text-sm;
+    }
+
+    h1 {
+        @apply text-6xl text-color-def mt-5 mb-2;
+    }
+
+    h2 {
+        @apply text-4xl text-color-def mt-4 mb-2;
+    }
+
+    h3 {
+        @apply text-3xl text-color-def mt-3 mb-2;
+    }
+
+    h4 {
+        @apply text-2xl text-color-def mt-2 mb-1;
+    }
+
+    h5 {
+        @apply text-xl text-color-def mt-2 mb-1;
+    }
+
+    h6 {
+        @apply text-lg text-color-def m-1;
+    }
+
+    a {
+        @apply text-color-pri;
+    }
+}
