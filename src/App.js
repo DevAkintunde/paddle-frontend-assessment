@@ -7,9 +7,9 @@ import PagesRouter from "./PagesRouter";
 function App() {
   return (
     <BrowserRouter>
-      <section className="pt-6 px-16 mx-8">
+      <section className="pt-6 mx-auto max-w-[1200px]">
         <MainNav />
-        <div className="m-5">
+        <div className="">
           <PagesRouter />
         </div>
         <Footer />

@@ -7,7 +7,7 @@
         font-family: "adobe-clean", sans-serif;
     }
 
-    body {
+    body #root>section {
         @apply text-color-def bg-color-pri text-sm;
     }
 
@@ -34,8 +34,10 @@
     h6 {
         @apply text-lg text-color-def m-1;
     }
-
-    a {
+    nav a {
         @apply text-color-def;
+    }
+    a {
+        @apply text-pink-500;
     }
 }
