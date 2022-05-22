@@ -36,6 +36,6 @@
     }
 
     a {
-        @apply text-color-pri;
+        @apply text-color-def;
     }
 }
