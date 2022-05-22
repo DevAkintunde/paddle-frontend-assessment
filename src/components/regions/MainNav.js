@@ -12,6 +12,18 @@ export const MainNav = () => {
                 ? "rounded-full block py-1 px-4 text-pink-500"
                 : "rounded-full block py-1 px-4"
             }
+            to="github"
+          >
+            Git Api
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) =>
+              isActive
+                ? "rounded-full block py-1 px-4 text-pink-500"
+                : "rounded-full block py-1 px-4"
+            }
             to="about-us"
           >
             About Us
