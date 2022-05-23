@@ -7,7 +7,7 @@ Frontend coding challenge using Create-React-App templating profile.
 Outside the React, React-Dom and React-Scripts dependency that comes with CRA, the following additional libraries is installed.
 
 - TailwindCss is used for all styling purposes. Custom colour and base configurations are available in `tailwind.config.js` in the document root.
-- react-icons (Only used FontAwesome of the library)
+- react-icons (Only FontAwesome of the library is used)
 - react-router-dom
 
 ## How to use App
@@ -17,5 +17,6 @@ Outside the React, React-Dom and React-Scripts dependency that comes with CRA, t
 
 ## To be improved
 
+- Introduce a feature to allow App users to input their specific countdown timer for preview purposes.
 - The styling can get better with some extra time on my hands.
 - The blog preview will be implemented.

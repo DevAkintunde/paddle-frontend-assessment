@@ -16,7 +16,7 @@ const Footer = () => {
     let footer = document.getElementById("footer");
     if (
       footer &&
-      (location.pathname === "/" || location.pathname === "comingsoon")
+      (location.pathname === "/" || location.pathname === "/comingsoon")
     ) {
       if (footer.classList.length === 0) {
         footer.setAttribute(
