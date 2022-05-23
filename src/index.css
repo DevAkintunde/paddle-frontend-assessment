@@ -12,27 +12,27 @@
     }
 
     h1 {
-        @apply text-6xl text-color-def mt-5 mb-2;
+        @apply text-4xl text-color-def mt-5 mb-2;
     }
 
     h2 {
-        @apply text-4xl text-color-def mt-4 mb-2;
+        @apply text-3xl text-color-def mt-4 mb-2;
     }
 
     h3 {
-        @apply text-3xl text-color-def mt-3 mb-2;
+        @apply text-2xl text-color-def mt-3 mb-2;
     }
 
     h4 {
-        @apply text-2xl text-color-def mt-2 mb-1;
-    }
-
-    h5 {
         @apply text-xl text-color-def mt-2 mb-1;
     }
 
+    h5 {
+        @apply text-lg text-color-def mt-2 mb-1;
+    }
+
     h6 {
-        @apply text-lg text-color-def m-1;
+        @apply text-base text-color-def m-1;
     }
     nav a {
         @apply text-color-def;

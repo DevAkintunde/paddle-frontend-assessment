@@ -1,5 +1,5 @@
 import React from "react";
-import DateDisplayFormatter from "../components/functions/DateDisplayFormatter";
+import DateDisplayFormatter from "../components/landingPageElements/DateDisplayFormatter";
 import { WaitingListForm } from "../components/landingPageElements/WaitingListForm";
 
 const ComingSoon = () => {
