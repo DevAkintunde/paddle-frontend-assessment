@@ -40,4 +40,7 @@
     a {
         @apply text-pink-500;
     }
+    form input {
+        @apply text-color-bla;
+    }
 }

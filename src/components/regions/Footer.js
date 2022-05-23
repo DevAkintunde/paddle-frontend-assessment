@@ -54,7 +54,7 @@ const Footer = () => {
           <li>Privacy policy</li>
         </ul>
         <p className="text-center">
-          Copyright 2021 @{" "}
+          Copyright 2022 @{" "}
           <a href="http://github.com/devakintunde">DevAKintunde</a>. All Rights
           Reserved
         </p>

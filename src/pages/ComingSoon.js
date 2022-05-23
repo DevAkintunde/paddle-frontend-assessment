@@ -14,7 +14,7 @@ const ComingSoon = () => {
         <span className="text-color-def"> track, automate </span> and <br />
         <span className="text-color-def"> optimise </span>your campaigns.
       </p>
-      <DateDisplayFormatter date="2022-05-24" />
+      <DateDisplayFormatter date="2022-06-03" />
       <WaitingListForm />
       {/*the floating bulbs */}
       <div className="absolute bg-gradient-to-b from-color-sec/50  h-14 w-14 rounded-full right-2 sm:right-5 bottom-2/4" />

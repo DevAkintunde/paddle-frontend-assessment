@@ -6,12 +6,12 @@ export const WaitingListForm = ({ className }) => {
     <form className="my-10">
       <div className="grid grid-cols-2 gap-6 w-1/2 min-w-min mx-auto">
         <input
-          className="pl-3 bg-transparent border-b-2 border-b-color-def/30 text-xs"
+          className="pl-3 bg-transparent border-b-2 border-b-color-def/30 text-xs text-color-def"
           type="text"
           placeholder="First Name..."
         />
         <input
-          className="pl-3 bg-transparent border-b-2 border-b-color-def/30 text-xs"
+          className="pl-3 bg-transparent border-b-2 border-b-color-def/30 text-xs text-color-def"
           type="text"
           placeholder="Last Name..."
         />
@@ -24,7 +24,7 @@ export const WaitingListForm = ({ className }) => {
         />
         <input
           type="submit"
-          className="uppercase cursor-pointer z-10 text-[0.6rem] bg-color-sec rounded-full px-5 w-fit grow -ml-5"
+          className="uppercase cursor-pointer z-10 text-[0.6rem] bg-color-sec text-color-def rounded-full px-5 w-fit grow -ml-5"
           value="Join our waiting list"
         />
       </div>
